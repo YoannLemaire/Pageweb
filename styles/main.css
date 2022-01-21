@@ -11,8 +11,8 @@ body{
     border: 5px solid #BF9B79;
     width: 100%;
     height: 200px;
-    position:fixed;
     left: 0%;
+    position: fixed;
 }
 .nav{
     list-style-type:disc;
@@ -24,8 +24,7 @@ body{
     justify-content: center;
 }
 li{
-    display:flex;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
 }
 li a{
@@ -72,4 +71,23 @@ a:active {
 }
 pre{
     padding:2px;
+}
+@media screen and (max-width: 768px) {
+	.A .Acv .Ac{
+		font-size:1.2em;
+	}
+
+	.A .Acv .Ac{
+		width:100%;
+		margin-bottom:0px;
+	}
+
+	.descrition img{
+		max-width:50%;
+	}
+
+	.naccueil{
+		width:100%;
+		margin-bottom:250px;
+	}
 }
